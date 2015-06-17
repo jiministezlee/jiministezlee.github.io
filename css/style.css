@@ -3,9 +3,17 @@ body{
 }
 p{ 
 	color:#F08080;
-  	font-size:25pt;
+  	font-size:30pt;
+}
+h1{
+	color:#191970;
+	font-size:20pt;
 }
 li{
 	color:#20B2AA;
 	font-size:15pt;
+}
+h2{
+	color:#F08080;
+	font-size:13pt;
 }
