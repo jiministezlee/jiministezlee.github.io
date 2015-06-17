@@ -1,6 +1,11 @@
 body{
 	background-color:#FAFAD2;
 }
-p{
+p{ 
 	color:#F08080;
+  	font-size:25pt;
+}
+li{
+	color:#20B2AA;
+	font-size:15pt;
 }
