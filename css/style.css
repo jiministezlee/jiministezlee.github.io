@@ -1,19 +1,20 @@
 body{
 	background-color:#FAFAD2;
 }
-p{ 
+h1{ 
 	color:#F08080;
   	font-size:30pt;
 }
-h1{
+h2{
 	color:#4B0082;
 	font-size:20pt;
-}
-h2{
-	color:#F08080;
-	font-size:13pt;
 }
 li{
 	color:#20B2AA;
 	font-size:15pt;
 }
+p{
+	color:#F08080;
+	font-size:13pt;
+}
+	
