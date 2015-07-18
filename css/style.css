@@ -1,20 +1,33 @@
 body{
-	background-color:#FAFAD2;
+	background-color:#FAFAF0;
 }
 h1{ 
-	color:#F08080;
-  	font-size:30pt;
+	color:#000000;
+  	font-size:18pt;
+  	text-align:right;
+  	font-style:courier new;
+  	font-weight:bold;
+  	text-decoration:underline
 }
 h2{
-	color:#4B0082;
-	font-size:20pt;
-}
-li{
-	color:#20B2AA;
+	color:#000000;
 	font-size:15pt;
+	font-style:courier new; 
+	font-style:italic;
+	text-align:center;
+	text-decoration:overline
+}
+h3{
+	color:#000000;
+	font-size:12pt;
+	font-style:courier new;
+	text-align:center;
+	text-transform:uppercase;
 }
 p{
-	color:#F08080;
+	color:#000000;
 	font-size:13pt;
+	font-style:courier new;
+	text-align:center;
 }
 	
