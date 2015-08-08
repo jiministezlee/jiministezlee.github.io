@@ -5,17 +5,16 @@ body{
 }
 h1{ 
 	color:#000000;
-  	font-size:20pt;
+  	font-size:30pt;
   	text-align:center;
   	font-weight:bold;
-  	text-decoration:underline;
   	text-transform:uppercase;
-  	font-family: 'Cardo', serif;
+  	font-family: 'Indie Flower', cursive;
 }
 h2{
 	color:#000000;
 	font-size:20pt;
-	font-family:'courier new'; 
+	font-family: 'Montez', cursive;
 	font-weight:bolder;
 	text-align:center;
 	text-decoration:overline
