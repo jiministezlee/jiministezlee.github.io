@@ -7,47 +7,37 @@ body{
 
 h1{
 	color:#000000;
-  	font-size:38pt;
-  	text-align:left;
+  	font-size:40pt;
+  	text-align:center;
   	font-weight:bold;
 	font-family: 'Poiret One', cursive;
-	padding: 20px;
+	padding: 10px;
 	margin:0;
-	float:left;
-	width:400px;
-	padding-bottom: 10px;
 
 }
 
 
 img{
-	display:block;
 	float:left;
 	margin: 0px 10px 10px 0px;
-	width: 350px;
-	padding-left: 20px;
 
 }
 
 nav{
-	font-size: 28px;
+	background-color: #aaaaaa;
 	font-family: Arial, sans-serif;
 	text-align: center;
 	font-family: 'Josefin Sans', sans-serif;
-	float:right;
-	margin-top: 70px;
-	margin-right: 30px;
-	padding-left:400px;
-	background-color: #ff7900;
+
 }
 
 nav a{
-	
+	background-color: #ff7900;
 	color:white;
 	text-decoration: none;
-	display:block;
-	padding:18px;
+	display;block;
 	float:left;
+	padding:20px;
 
 }
 nav a:hover {
@@ -67,6 +57,5 @@ nav a:hover {
 footer{
 	text-align: center;
 	padding:20px;
-	font-family: 'Oxygen', sans-serif;
 
 }
