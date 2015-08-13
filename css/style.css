@@ -7,7 +7,7 @@ body{
 }
 h1{ 
 	color:#000000;
-  	font-size:30pt;
+  	font-size:40pt;
   	text-align:center;
   	font-weight:bold;
   	text-transform:uppercase;
@@ -23,7 +23,7 @@ p{
 }
 nav{
 	color:#C0C0C0;
-	font-size:12pt;
+	font-size:25pt;
 	font-family: 'Nova Mono', ;
 	text-align:center;
 	text-transform:uppercase;
@@ -31,11 +31,8 @@ nav{
 
 p{
 	color:#000000;
-	font-size:10pt;
+	font-size:30pt;
 	font-family: 'Norican', cursive;
 	text-align:center;
 }
-hr{
-	width:400px;
-	text-align: center;
-}
+
