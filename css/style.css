@@ -23,7 +23,7 @@ p{
 }
 nav{
 	color:#C0C0C0;
-	font-size:25pt;
+	font-size:20pt;
 	font-family: 'Nova Mono', ;
 	text-align:center;
 	text-transform:uppercase;
@@ -31,7 +31,7 @@ nav{
 
 p{
 	color:#000000;
-	font-size:30pt;
+	font-size:16pt;
 	font-family: 'Norican', cursive;
 	text-align:center;
 }
