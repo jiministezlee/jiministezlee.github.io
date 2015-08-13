@@ -17,7 +17,7 @@ nav{
 
 }
 
-a{
+nav a{
 	background-color: #ff7900;
 	color:white;
 	text-decoration: none;
@@ -26,7 +26,7 @@ a{
 	padding:20px;
 
 }
-a:hover {
+nav a:hover {
 	background-color: #338833;
 }
 
