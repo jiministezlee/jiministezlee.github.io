@@ -3,11 +3,11 @@
 body{
 	background-color:#FAFAF0;
 	text-align: center;
-
+  font-size: 30px;
 }
 h1{ 
 	color:#000000;
-  	font-size:40pt;
+  	font-size:2em;
   	text-align:center;
   	font-weight:bold;
   	text-transform:uppercase;
@@ -15,7 +15,7 @@ h1{
 }
 p{
 	color:#000000;
-	font-size:20pt;
+	font-size:1em;
 	font-family: 'Montez', cursive;
 	font-weight:bolder;
 	text-align:center;
@@ -23,7 +23,7 @@ p{
 }
 nav{
 	color:#C0C0C0;
-	font-size:20pt;
+	font-size:1em;
 	font-family: 'Nova Mono', ;
 	text-align:center;
 	text-transform:uppercase;
@@ -31,8 +31,75 @@ nav{
 
 footer{
 	color:#000000;
-	font-size:12pt;
+	font-size:.6em;
 	font-family: 'Norican', cursive;
 	text-align:center;
+/*  position: fixed;
+  width: 100%;
+  bottom: 0;*/
+  margin-top: 50px;
 }
 
+
+@media only screen and (max-width: 768px) {
+/*  body {
+    font-size: 20px;
+  }*/
+
+  nav a {
+    display: block;
+  }
+  nav span {
+    display: none;
+  }
+
+  img {
+    width: 100%;
+  }
+  #hero {
+    font-size: 1.2em;
+    line-height: 1.8em;
+  }
+    #qoute {
+    float: none;
+    font-size: 0.8em;
+  }
+    #sign {
+    float:none;
+    font-size: 0.5em;
+}
+}
+@media only screen and (max-width: 320px) {
+  h1, nav {
+    display: block;
+    text-align: center;
+    float:none;
+    width: 120%;
+    padding:5em;
+  }
+
+    nav a {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
+img {
+    width: 300px;
+  }
+  section, div {
+    width: 100%;
+    padding: .6em;
+  }
+  #hero {
+    font-size: 0.8em;
+    line-height: 1.4em;
+  }
+
+  #quote {
+    float: none;
+    font-size: 0.4em;
+  }
+  #sign {
+  	float:none;
+  	font-size: 0.3em;
+  }
+}
