@@ -1,44 +1,112 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 
 body{
-	background-color:#FAFAF0;
+  background: url("../Image/tree.jpg") no-repeat center center fixed;
+  background-size: cover;
+	/* background-color:#FAFAF0; */
 	text-align: center;
   font-size: 30px;
 }
 h1{ 
-	color:#000000;
+	color:#FFFAF0;
   	font-size:2em;
   	text-align:center;
-  	font-weight:bold;
+    font-weight:bold;
   	text-transform:uppercase;
-  	font-family: 'Goudy Bookletter 1911', serif;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 2em
 }
 p{
-	color:#000000;
-	font-size:1em;
-	font-family: 'Montez', cursive;
+	color:#00FF00;
+	font-size:.8em;
+	font-family: 'Architects Daughter', cursive;
 	font-weight:bolder;
 	text-align:center;
-	text-decoration:overline
+	text-decoration:overline;
+  padding-top: .5em;
 }
 nav{
-	color:#C0C0C0;
+	color:#FFFAF0;
 	font-size:1em;
 	font-family: 'Nova Mono', ;
 	text-align:center;
 	text-transform:uppercase;
+  margin-top: 12em;
+  margin-left: 5em;
+  margin-right: 5em;
+  border: 1px solid #FFF;
+
+
 }
 
-footer{
-	color:#000000;
-	font-size:.6em;
-	font-family: 'Norican', cursive;
-	text-align:center;
+a{
+  color:#FFFAF0;
+  padding: 0 1.2em;
+  text-decoration: none;
+}
+
+a:hover{
+  background-color:#FFF;
+  color:#00008B;
+}
+
+span{
+  color:#FF1493;
+}
+
+#change{
+
+}
+
+#bar{
+  color:#FFFAF0;
+}
+
+.column{
+  width: 45%;
+  margin: 2.5%;
+  float:left;
+}
+
+.clearfix:after{clear:both;
+}
+
+h2 {
+  color:#FFFAF0;
+  font-family: 'Poiret One';
+  font-size:.8em;
+  padding: 2em 6em;
+  margin-bottom: 10px
+
+ }
+
+ h3 {
+  color:#FFFAF0;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin: 0 30px;
+ }
+
+img {
+  display: inline-block;
+  text-align: center;
+  padding: 1em 4em;
+}
+
+ footer{
+  color:#000000;
+  font-size:.6em;
+  font-family: 'Norican', cursive;
+  text-align:center;
 /*  position: fixed;
   width: 100%;
   bottom: 0;*/
   margin-top: 50px;
 }
+
+
+
+
 
 
 @media only screen and (max-width: 768px) {
@@ -58,18 +126,6 @@ nav {
   img {
     width: 100%;
   }
-  #hero {
-    font-size: 1.2em;
-    line-height: 1.8em;
-  }
-    #qoute {
-    float: none;
-    font-size: 0.8em;
-  }
-    #sign {
-    float:none;
-    font-size: 0.5em;
-}
 }
 @media only screen and (max-width: 320px) {
   h1, nav {
@@ -90,18 +146,5 @@ img {
   section, div {
     width: 100%;
     padding: .6em;
-  }
-  #hero {
-    font-size: 0.8em;
-    line-height: 1.4em;
-  }
-
-  #quote {
-    float: none;
-    font-size: 0.4em;
-  }
-  #sign {
-  	float:none;
-  	font-size: 0.3em;
   }
 }
