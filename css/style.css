@@ -1,7 +1,7 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 
 body{
-  background: url("../Image/tree.jpg") no-repeat center center fixed;
+  background: url("../Image/wood.jpg") no-repeat center center fixed;
   background-size: cover;
 	/* background-color:#FAFAF0; */
 	text-align: center;
@@ -12,14 +12,14 @@ h1{
   	font-size:2em;
   	text-align:center;
     font-weight:bold;
-  	text-transform:uppercase;
+  	
     font-family: 'Montserrat', sans-serif;
     padding-top: 2em
 }
 p{
 	color:#00FF00;
 	font-size:.8em;
-	font-family: 'Architects Daughter', cursive;
+  font-family: 'Poiret One';
 	font-weight:bolder;
 	text-align:center;
 	text-decoration:overline;
@@ -73,7 +73,7 @@ span{
 
 h2 {
   color:#FFFAF0;
-  font-family: 'Poiret One';
+  font-family: 'Architects Daughter', cursive;
   font-size:.8em;
   padding: 2em 6em;
   margin-bottom: 10px
